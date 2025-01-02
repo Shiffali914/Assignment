@@ -20,7 +20,9 @@ public class CustomerFeedback {
             }
 
         }
-
+        if (!found) {
+            System.out.println("No such comment is available");
+        }
     }
-    }
+}
 
